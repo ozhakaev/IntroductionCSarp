@@ -2,4 +2,4 @@
 Console.WriteLine("Enter number: ");
 a = Convert.ToInt32(Console.ReadLine());
 b=a*a;
-Console.WriteLine("Result = "+b);
+Console.WriteLine($"Result: {a}^2={b}");
